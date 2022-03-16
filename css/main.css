@@ -1,0 +1,349 @@
+body {
+  font-family: "Libre Franklin";
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.burger {
+  display: none;
+}
+
+.hero {
+  background: url(../img/IMAGE.png) top no-repeat;
+  height: 582px;
+  width: 100%;
+}
+
+.header_content {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+}
+.header_content nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header_content nav ul li {
+  padding-right: 20px;
+}
+.header_content nav ul li .nav_link {
+  color: white;
+}
+.header_content nav ul li .nav_link:hover {
+  color: #75ee81;
+  text-shadow: #75ee81 0 0 15px;
+}
+.header_content nav ul button {
+  padding: 11px 17px;
+  background: none;
+  border: solid white 3px;
+  border-radius: 2px;
+  color: white;
+  font-family: "Libre Franklin";
+  font-size: 14px;
+}
+.header_content nav ul button:hover {
+  border: solid #75ee81 3px;
+  color: #75ee81;
+  text-shadow: #75ee81 0 0 25px;
+}
+
+.hero_content {
+  margin-top: 120px;
+  text-align: center;
+  color: white;
+}
+.hero_content h1 {
+  font-size: 71px;
+}
+.hero_content p {
+  font-size: 13px;
+  font-family: IBM Plex Mono;
+  margin-top: 30px;
+}
+.hero_content button {
+  margin-top: 75px;
+  padding: 15px 30px;
+  background: #5AB963;
+  border: none;
+  font-family: Libre Franklin;
+  font-size: 16px;
+  border-radius: 4px;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.hero_content button:hover {
+  background: none;
+  border: solid 2px #5AB963;
+}
+
+.about .about_content {
+  margin-top: 120px;
+}
+.about .about_content .about_text {
+  max-width: 507px;
+  max-height: 144px;
+}
+.about .about_content .about_text p {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 36px;
+  color: #999999;
+}
+.about .about_content .about_text p span {
+  font-weight: 700;
+  color: black;
+}
+.about .about_content .about_containers {
+  margin-top: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about .about_content .about_containers .containersi {
+  max-width: 337px;
+  height: 330px;
+  padding-left: 41px;
+  padding-top: 51px;
+  padding-right: 56px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .about_content .about_containers .containersi h2 {
+  margin-top: 25px;
+  font-size: 16px;
+}
+.about .about_content .about_containers .containersi p {
+  margin-top: 13px;
+  font-family: IBM Plex Mono;
+  color: #999999;
+  line-height: 24px;
+}
+
+.bg_photo img {
+  width: 100%;
+}
+
+.subt_bg {
+  margin-top: 115px;
+  text-align: center;
+}
+
+.subt_bg_content {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 100;
+  color: #999999;
+  max-width: 685px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.subt_bg_content span {
+  font-weight: 700;
+  color: black;
+}
+.subt_bg_content a {
+  margin-top: 6px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #5AB963;
+  font-family: IBM Plex Mono;
+}
+
+.cards {
+  margin-top: 237px;
+}
+.cards .card1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.cards .card1 .text_card {
+  max-width: 362px;
+  margin-left: 100px;
+}
+.cards .card1 .text_card h2 {
+  color: #999999;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 100;
+}
+.cards .card1 .text_card h2 span {
+  color: #000;
+  font-weight: 700;
+}
+.cards .card1 .text_card p {
+  font-family: IBM Plex Mono;
+  font-size: 13px;
+  line-height: 24px;
+  color: #999999;
+  margin-top: 25px;
+}
+.cards .card2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 90px;
+}
+.cards .card2 .text_card {
+  max-width: 362px;
+  margin-left: 230px;
+  margin-right: 100px;
+}
+.cards .card2 .text_card h2 {
+  color: #999999;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 100;
+}
+.cards .card2 .text_card h2 span {
+  color: #000;
+  font-weight: 700;
+}
+.cards .card2 .text_card p {
+  font-family: IBM Plex Mono;
+  font-size: 13px;
+  line-height: 24px;
+  color: #999999;
+  margin-top: 25px;
+}
+
+.premium {
+  margin-top: 110px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.premium h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.premium p {
+  margin-top: 12px;
+  font-size: 11px;
+  color: #5AB963;
+  font-family: IBM Plex Mono;
+}
+
+.party_on .paty_on_content {
+  margin-top: 271px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.party_on .on_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.party_on .on_title h3 {
+  font-size: 16px;
+  color: #5AB963;
+}
+.party_on .on_title p {
+  width: 30px;
+  height: 2px;
+  background: #5AB963;
+  margin-left: 20px;
+}
+.party_on .on_subtitle {
+  max-width: 483px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 100;
+  color: #999999;
+  margin-top: 15px;
+}
+.party_on .on_subtitle span {
+  font-weight: 400;
+  color: black;
+}
+.party_on .on_btn button {
+  padding: 15px 30px;
+  background: #5AB963;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.party_on .on_btn button:hover {
+  background: none;
+  border: solid 2px #5AB963;
+  color: black;
+}
+
+.footer {
+  background: #0A0E1A;
+  height: 399px;
+  margin-top: 150px;
+}
+.footer .footer_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 120px;
+  width: 100%;
+}
+.footer .footer_content .logo_vire p {
+  margin-top: 15px;
+  color: #666666;
+  font-size: 12px;
+}
+.footer .footer_content .footer_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .footer_content .footer_links a {
+  color: white;
+}
+.footer .footer_content .footer_links .links1, .footer .footer_content .footer_links .links2, .footer .footer_content .footer_links .links3 {
+  margin-right: 50px;
+}
+.footer .footer_content .footer_links .links1 li, .footer .footer_content .footer_links .links2 li, .footer .footer_content .footer_links .links3 li {
+  padding: 12.5px 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+.footer .footer_content .footer_links .links1 li a:hover, .footer .footer_content .footer_links .links2 li a:hover, .footer .footer_content .footer_links .links3 li a:hover {
+  color: #5AB963;
+}
+.footer .footer_content .footer_links .links3 img {
+  margin: 0 10px;
+}
+
+.burger .burger_lin {
+  background: #fff;
+  width: 10px;
+  height: 2px;
+}
