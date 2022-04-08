@@ -1,0 +1,238 @@
+@media screen and (max-width:1024px){
+    .container{
+        width: 990px;
+    }
+    .container{
+        .card2{
+            .text_card{
+                max-width: 362px;
+                margin-right: 100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width: 734px;
+    }
+    
+    .container{
+        .card1{
+            img{
+                width: 350px;
+            }
+            .text_card{
+                margin-left: 90px;
+            }
+        }
+        .card2{
+            img{
+                width: 350px;
+            }
+            .text_card{
+                margin-left: 0px;
+                margin-right: 90px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:425px){
+    .container{
+        width: 391px;
+    }
+    .burger {
+        width: 45px;
+        height: 40px;
+        display: block;
+        margin-right: 20px;
+        position: relative;
+        z-index: 3;
+      }
+
+    .burger::after,
+    .burger::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        height: 3px;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        }
+
+    .burger::after {
+        bottom: 7px;
+    }
+        
+    .burger::before {
+        top: 5px;
+    }
+
+    .burger span {
+        width: 100%;
+        background-color: white;
+        height: 3px;
+        position: absolute;
+        top: 18px;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+
+
+        .header_menu{
+            position: fixed;
+            margin: 0;
+            left: 0;
+            top: -5000px;
+            padding: 80px 0 0 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            transition: .5s;
+            ul{
+                padding: 15px;
+                flex-wrap: wrap;
+                margin-left: auto;
+                margin-right: auto;
+                li{
+                    padding: 11px;
+                }
+            }
+        }
+      
+      .logo{
+          position: relative;
+          z-index: 3;
+      }
+      .header_menu.active{
+          top: 0px;
+      }
+    
+    .hero_content{
+        margin-top: 70px;
+        h1{
+            font-size: 51px;
+        }
+        p{
+            line-height: 23px;
+        }
+    }
+    .container{
+        .about_content{
+            margin-top: 100px;
+            .about_containers{
+                display: none;
+            }
+        }
+    }
+
+    .about{
+        .about_content{
+            margin-top: 50px;
+            margin-bottom: 80px;
+            text-align: center;
+        }
+    }
+
+    .cards{
+        margin-top: 100px;
+        .card1, .card2{
+            flex-wrap: wrap;
+            img{
+                width: 100%;
+            }
+            .text_card{
+                margin: 0px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+        }
+    }
+    
+    .party_on{ 
+        .paty_on_content{
+            margin-top: 110px;
+            flex-wrap: wrap;
+        }
+        .on_btn{
+            button{
+                margin-top: 20px;
+            }
+        }
+    }
+    .footer{
+        height: 350px;
+        .footer_content{
+            .footer_links{
+                .links1, .links2, .links3{
+                    margin-right: 10px;
+                    li{
+                        line-height: 15px;
+                    }
+                }
+                .links3{
+                    img{
+                        margin: 0 5px;
+                    }
+                }
+            }
+        } 
+    }
+    
+}
+
+@media screen and (max-width:375px){
+    .container{
+        width: 341px;
+    }
+
+    .loading{
+        left: 40%;
+    }
+
+    .footer{
+        height: 200px;
+        .footer_content{
+            padding-top: 60px;
+            .footer_links{
+                .links_footer{
+                    ul{
+                        li{
+                            padding: 5px 0; 
+                            font-size: 10px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .links3{
+                    img{
+                        margin: 0 3px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width:320px){
+    .container{
+        width: 286px;
+    }
+
+    .footer{
+        .footer_content{
+            .footer_links{
+                .links3{
+                    img{
+                        margin: 0 1px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
